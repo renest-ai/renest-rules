@@ -1,5 +1,0 @@
-{
-  "content": "{\n  \"engine\": {\n    \"probe_timeout_s\": 5.0,\n    \"range_workers\": 8,\n    \"read_timeout_s\": 30.0,\n    \"single_stream_min_bytes\": 8388608\n  },\n  \"host_rewrites\": [\n    {\n      \"kind\": \"mirror\",\n      \"match_host\": \"huggingface.co\",\n      \"regions\": [\n        \"cn\"\n      ],\n      \"replace_host\": \"hf-mirror.com\"\n    }\n  ],\n  \"issued_at\": \"2026-08-08T17:04:58Z\",\n  \"schema\": \"ai.renest.rules.sources\",\n  \"schema_version\": \"1\",\n  \"unsupported_kinds\": [\n    \"torrent\",\n    \"magnet\"\n  ],\n  \"updated\": \"2026-07-19\"\n}\n",
-  "sig": "80ef7900d00bc7f65c6cb139731e8bae973108cbb2a15717fb982eb0432c9273c3118948058836fa4643347951ac5853e6064ae898818bf9ea7dfe4dbe3b5a0c",
-  "key_id": "k2"
-}

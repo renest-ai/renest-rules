@@ -1,5 +1,0 @@
-{
-  "content": "{\n  \"cuda_driver_floors\": {\n    \"cu124\": {\n      \"floor\": [\n        550,\n        54\n      ]\n    },\n    \"cu126\": {\n      \"floor\": [\n        560,\n        28\n      ]\n    },\n    \"cu128\": {\n      \"floor\": [\n        570,\n        26\n      ]\n    },\n    \"cu130\": {\n      \"floor\": [\n        580,\n        65\n      ]\n    }\n  },\n  \"cuda_family_consistency\": {\n    \"level\": \"warn\",\n    \"package_pattern\": \"^nvidia-\"\n  },\n  \"egress\": {\n    \"probe_url\": \"https://github.com/peak/s5cmd/releases/download/v2.2.2/s5cmd_2.2.2_Linux-64bit.tar.gz\",\n    \"reject_below_mbps\": 20.0,\n    \"warn_below_mbps\": 100.0\n  },\n  \"issued_at\": \"2026-08-08T17:04:58Z\",\n  \"lock_cuda_vs_driver\": {\n    \"level\": \"reject\"\n  },\n  \"required_cpu_flags\": {\n    \"flags\": [\n      \"avx2\"\n    ]\n  },\n  \"schema\": \"ai.renest.rules.doctor\",\n  \"schema_version\": \"1\",\n  \"updated\": \"2026-08-08\"\n}\n",
-  "sig": "050dab22a93408d487644ea6eab1006c28c4cf5253331d75987f6df81b5af0a69925ce3f57c1825b477ee866fded6081f38ece21b85c690b9ecba1585a435a0e",
-  "key_id": "k2"
-}
